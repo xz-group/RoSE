@@ -8,7 +8,7 @@ For more details, please refer to our **DAC'23** paper: [_RoSE: Robust Analog Ci
 
 ## How to Use
 
-Details and Code regarding Cadence simulation will be updated soon.
+Details and code regarding Cadence simulation will be updated soon.
 
 ### Generate Specs
 
