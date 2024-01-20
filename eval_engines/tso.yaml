@@ -1,0 +1,26 @@
+# YAML (YAML Ain't Markup Language) is a human-readable data-serialization language. It is commonly used for configuration files, but it is also used in data storage (e.g. debugging output) or transmission (e.g. document headers).
+# YAML natively supports three basic data types: scalars (such as strings, integers, and floats), lists, and associative arrays.
+
+# Design space 
+params:
+  mp1:  !!python/tuple [10000, 50000, 1000]
+  mp2:  !!python/tuple [10000, 50000, 1000]
+  mp3:  !!python/tuple [10000, 50000, 1000]
+  mp4:  !!python/tuple [50000, 250000, 10000]
+  mn1:  !!python/tuple [2000, 20000, 1000]
+  mn2:  !!python/tuple [2000, 20000, 1000]
+  mn3:  !!python/tuple [2000, 20000, 1000]
+  mn4:  !!python/tuple [10000, 50000, 1000]
+  cap1:  !!python/tuple [!!float 25.0, !!float 50.0, !!float 0.5]
+  cap2:  !!python/tuple [!!float 1.0, !!float 25.0, !!float 0.5]
+
+# Every specification output will be normlaized in the order of (gain, ibias, pm, ugbw)
+normalize: !!python/tuple [45, 0.01, 55, 2000000]
+
+# Sampling space
+# During training, at reset a specification will be chosen at random between [min,max,#]
+target_specs:
+  gain_min: !!python/tuple [!!float 4.0e1, !!float 4.5e1]
+  ugbw_min: !!python/tuple [!!float 1.0e6, !!float 2.0e6]
+  phm_min: !!python/tuple [55,55.0000001]
+  ibias_max: !!python/tuple [0.01, 0.1]
