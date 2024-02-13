@@ -12,19 +12,17 @@ Details and code regarding Cadence simulation will be updated soon.
 
 ### Environment Setup
 
+This setup requires Anaconda. Run the following command below:
 
-* This setup requires Anaconda. Run the following command below:
+```bash
+conda env create -f environment.yml
+```
 
-  ```bash
-  conda env create -f environment.yml
-  ```
+To activate the environment:
 
-
-* To activate the environment:
-
-  ```bash
-  conda activate RoSE
-  ```
+```bash
+conda activate RoSE
+```
 
 ### Generate Specs
 
