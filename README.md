@@ -6,6 +6,8 @@ A robust analog circuit parameter optimization framework with high sampling effi
 
 For more details, please refer to our **DAC'23** paper: [_RoSE: Robust Analog Circuit Parameter Optimization with Sampling-Efficient Reinforcement Learning_](https://ieeexplore.ieee.org/document/10247991)
 
+And Our **TCAD'24** paper: [RoSE-Opt: Robust and Efficient Analog Circuit Parameter Optimization with Knowledge-infused Reinforcement Learning](https://ieeexplore.ieee.org/document/10614385)
+
 ## How to Use
 
 Details and code regarding Cadence simulation will be updated soon.
@@ -76,6 +78,18 @@ If you use this framework for your research, please cite our [DAC'23 paper](http
   pages={1--6},
   year={2023},
   organization={IEEE}
+}
+```
+
+our [TCAD'24 paper](https://ieeexplore.ieee.org/document/10614385):
+
+```
+@article{cao2024rose,
+  title={Rose-opt: Robust and efficient analog circuit parameter optimization with knowledge-infused reinforcement learning},
+  author={Cao, Weidong and Gao, Jian and Ma, Tianrui and Ma, Rui and Benosman, Mouhacine and Zhang, Xuan},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
