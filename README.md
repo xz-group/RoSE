@@ -6,7 +6,7 @@ A robust analog circuit parameter optimization framework with high sampling effi
 
 For more details, please refer to our **DAC'23** paper: [_RoSE: Robust Analog Circuit Parameter Optimization with Sampling-Efficient Reinforcement Learning_](https://ieeexplore.ieee.org/document/10247991)
 
-And our **TCAD'24** paper: [RoSE-Opt: Robust and Efficient Analog Circuit Parameter Optimization with Knowledge-infused Reinforcement Learning](https://ieeexplore.ieee.org/document/10614385)
+And our **TCAD'24** paper: [_RoSE-Opt: Robust and Efficient Analog Circuit Parameter Optimization with Knowledge-infused Reinforcement Learning_](https://ieeexplore.ieee.org/document/10614385)
 
 ## How to Use
 
